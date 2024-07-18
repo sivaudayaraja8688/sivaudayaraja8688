@@ -1,0 +1,26 @@
+#include<stdio.h>
+int maim()
+{
+int count=0;
+int num=2;
+while(count<20)
+{
+int is_prime=1;
+for(int i=2;i<=num/2;i++)
+{
+if(num%i==0)
+{
+is_prime=0;
+break;
+}
+}
+if(is_prime)
+{
+printf("%d",num);
+count++;
+}
+num++;
+}
+printf("\n");
+return 0;
+}

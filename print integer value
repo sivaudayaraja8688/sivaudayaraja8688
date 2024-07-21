@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{
+    int a;
+printf("enter an integer:");
+scanf("%d",&a);
+printf("the integer that you have enetred is%d",a);
+}
